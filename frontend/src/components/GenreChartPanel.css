@@ -1,0 +1,15 @@
+.genre-chart-panel { margin-top: 24px; }
+.genre-chart-actions { display: flex; align-items: center; gap: 10px; }
+.genre-chart-actions select, .genre-assignment select { border: 1px solid #39363e; background: var(--surface2); color: #eee; border-radius: 7px; padding: 9px 11px; font-size: .75rem; }
+.chart-methodology, .chart-count, .chart-disclaimer { font-size: .75rem; line-height: 1.5; }
+.chart-disclaimer { border-top: 1px solid var(--line); padding-top: 12px; }
+.chart-error { display: flex; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid #703244; background: #351d26; color: #ffc1cf; border-radius: 9px; padding: 12px; font-size: .8rem; }
+.chart-source { display: inline-flex; align-items: center; gap: 5px; color: var(--pink2); text-decoration: none; font-size: .72rem; white-space: nowrap; }
+.chart-source:hover { text-decoration: underline; }
+.chart-empty { gap: 8px; }
+.genre-assignment { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.genre-assignment span { color: var(--muted); font-size: .66rem; }
+.genre-assignment select { padding: 5px 8px; }
+.candidate-funnel { display: grid; gap: 5px; margin: 14px 0; padding: 12px; border: 1px solid var(--line); border-radius: 9px; color: #c9c4ce; font-size: .75rem; }
+.candidate-funnel b { color: #fff; margin-bottom: 2px; }
+@media (max-width: 760px) { .genre-chart-actions { align-items: stretch; flex-direction: column; } .chart-track-list .track-row { flex-wrap: wrap; } }
